@@ -99,3 +99,59 @@ header nav ul li a{
 .hero-container .hero-content button{
     gap: 16px;
 }
+.notes-container .notes-heading{
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+    /* padding-top: 16px; */
+
+
+}
+.notes-container .notes-heading h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 32px;
+    color:#001931 ;
+
+}
+.notes-container .notes-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+.notes-container .notes-cards{
+    display: flex;
+    max-width: 1360px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 44px;
+}
+.notes-container .notes-card{
+    max-width: 322px;
+    height: 300px;
+    text-align: center;
+    padding: 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.144);
+
+}
+.notes-container .notes-card img{
+    background-color: #F95555;
+    max-width: 60px;
+    padding: 14px;
+    border-radius: 100px;
+    margin-bottom: 16px;
+}
+.notes-container .notes-card h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.notes-container .notes-card p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
