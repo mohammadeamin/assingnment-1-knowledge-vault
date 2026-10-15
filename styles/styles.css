@@ -83,7 +83,12 @@ header nav ul li a{
     background-color: #FFFFFF;
     color: #469165;
     border-radius: 1000px;
-    margin: 16px 450px;
+    width: 260px;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    text-align: center;
+    padding: 8px 12px;
 }
 .hero-container .hero-content h1{
     font-size: 72px;
@@ -207,4 +212,37 @@ header nav ul li a{
 .get-early-access-container .get-early-access-button p{
     margin-top: 16px;
     color: #627382;
+}
+footer{
+    background-color: #001931;;
+}
+footer .footer-container{
+    padding: 120px 120px 30px 120px;
+}
+ .footer-container .logo-social-link{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    margin-bottom: 80px;
+}
+
+.footer-container .logo-social-link .social-link p{
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 24px;
+   color: #FFFFFF;
+   margin-bottom: 16px;
+}
+.footer-container .logo-social-link .social-link img{
+    margin-right: 16px;
+}
+.footer-container .all-rights{
+    text-align: center;
+    color: #FAFAFA;
+}
+.footer-container .all-rights p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
