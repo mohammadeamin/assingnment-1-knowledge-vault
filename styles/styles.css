@@ -184,3 +184,27 @@ header nav ul li a{
 .second-brain-container .brain-content .check-list {
     margin-top: 40px;
 }
+#get-early-access .get-early-access-container{
+    margin: 2px 120px 120px;
+    text-align: center;
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    padding: 80px 40px;
+}
+.get-early-access-container .get-early-access-title h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.get-early-access-container .get-early-access-title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+    color: #627382;
+}
+.get-early-access-container .get-early-access-button p{
+    margin-top: 16px;
+    color: #627382;
+}
